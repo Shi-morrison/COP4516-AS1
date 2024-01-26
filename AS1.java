@@ -15,7 +15,10 @@ public class AS1 implements Runnable {
 
     // Finding primes in up to 100 million
     private static final int Max = 100000000;
-    // private static final int Max = 100;
+
+    // private static final int Max = 64;
+
+    // private static final int Max = 5;
 
     // The range of numbers to check for primes in each thread
     private int currStart = 0;
@@ -84,7 +87,7 @@ public class AS1 implements Runnable {
         long executionTime = endTime - startTime;
 
         try {
-            FileWriter writer = new FileWriter("primes.txt");
+            FileWriter writer = new FileWriter("primes5.txt");
             writer.write(
                     "execution time: " + executionTime + " total primes found: " + allPrimes.size()
                             + " sum of all primes: " + sum + "\n");

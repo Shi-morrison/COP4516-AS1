@@ -1,0 +1,2 @@
+execution time: 56 total primes found: 18 sum of all primes: 501
+Top 10 maximum primes: 61 59 53 47 43 41 37 31 29 23 
