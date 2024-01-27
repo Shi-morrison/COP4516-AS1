@@ -1,2 +1,4 @@
-execution time: 2059 total primes found: 5761455 sum of all primes: 279209790387276
-Top 10 maximum primes: 99999989 99999971 99999959 99999941 99999931 99999847 99999839 99999827 99999821 99999787 
+Execution time: 12
+Total primes found: 2
+Sum of all primes: 5
+Top 10 maximum primes: 3 2 
